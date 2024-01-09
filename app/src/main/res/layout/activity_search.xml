@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Caseta de text pentru introducerea cuvântului -->
+    <EditText
+        android:id="@+id/editText_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Introduceti cuvantul"/>
+
+    <!-- Butonul pentru cautare -->
+    <Button
+        android:id="@+id/button_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cauta" />
+
+</LinearLayout>
